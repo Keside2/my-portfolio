@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "title": "CodeWithGodwin | Full Stack Developer",
+    "description": "Portfolio website showcasing full-stack projects and skills"
+  },
+  "personal": {
+    "name": "Izunobi Keside Godwin",
+    "title": "Full Stack Developer | Building High-Impact Digital Products",
+    "location": "Owerri, Imo, Nigeria",
+    "avatar": "https://avatars.githubusercontent.com/u/92938379?v=4",
+    "email": "kesideizunobi@gmail.com",
+    "phone": "+234 (906) 954 0498",
+    "workingHours": "Monday - Friday, 9am - 5pm PST",
+    "availableForWork": true,
+    "badges": ["Web Solutions", "Mobile Apps", "UI/UX Design"],
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Keside2",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "#",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/IzunobiKeside/",
+        "icon": "Twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "#",
+        "icon": "Instagram"
+      },
+      {
+        "platform": "WhatsApp",
+        "url": "https://wa.me/2349022807412",
+        "icon": "MessageCircle"
+      }
+    ]
+  },
+  "about": {
+    "bio": "I am a Full-Stack Developer with a frontend obsession, passionate about turning ideas into seamless digital experiences. With 3+ years of hands-on experience, I specialize in building clean, scalable, and user-centered applications that don’t just work—they feel right.   Driven by curiosity and continuous learning, I’m always exploring better ways to craft intuitive interfaces and efficient systems. When I’m not coding, you’ll find me immersed in anime worlds  or out enjoying outdoor sports and games.",
+    "focus": [
+      "Frontend Architecture — building scalable, maintainable component systems",
+      "User Experience (UX) — creating interfaces that feel natural and effortless",
+      "Performance Optimization — fast load times, smooth interactions, and responsiveness",
+      "Data-driven UI/UX design focused on user retention and growth",
+      "Design Implementation — pixel-perfect execution from design to code",
+      "Accessibility — ensuring products are usable by everyone"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Professional Working Proficiency",
+        "level": 100,
+        "flag": "🇺🇸"
+      },
+      {
+        "name": "Pidgin English",
+        "proficiency": "Native Speaker",
+        "level": 100,
+        "flag": "🇳🇬"
+      },
+      {
+        "name": "Igbo",
+        "proficiency": "",
+        "level": 100,
+        "flag": "🇳🇬"
+      }
+    ],
+    "interests": [
+      "Scalable Architecture",
+      "Frontend Engineering",
+      "Accessibility",
+      "Product Strategy"
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Experience",
+      "href": "/#experience"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full-Stack Developer (Frontend-Focused) ",
+      "company": "Alpha Tech",
+      "period": "2025 - Present",
+      "description": "A scalable, full-stack learning platform designed to deliver seamless user experiences and real-time insights. Built with a frontend-first approach, the system focuses on performance, usability, and clean architecture—bridging complex business logic with intuitive interfaces.",
+      "achievements": [
+        "Built a real-time analytics dashboard that increased user engagement by 35%",
+        "Delivered high-quality features within project timelines",
+        "Contributed to API documentation and testing, improving system reliability",
+        "Collaborated across teams to ship scalable and user-focused solutions"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Firebase",
+        "Node.js",
+        "CSS3",
+        "Figma"
+        
+      ]
+    },
+    
+   
+    {
+      "title": "Software Engineering Intern",
+      "company": "Soutech Ventures ",
+      "period": "2023 - 2024",
+      "description": "Assisted the engineering team in building and maintaining web applications. Participated in code reviews, bug fixing, and feature development.",
+      "achievements": [
+        "Improved mobile responsiveness for the company website",
+        "Helped create a reusable component library",
+        "Contributed to API documentation and testing"
+      ],
+      "technologies": ["HTML/CSS", "JavaScript", "Git", "Git Hub"]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "name": "Full Stack Developer Certificate",
+        "issuer": "Udemy",
+        "date": "2025",
+        "logo": "/udemy-logo.png"
+      },
+      {
+        "name": "JavaScript Course",
+        "issuer": "Udemy",
+        "date": "2025",
+        "logo": "/udemy-logo.png"
+      },
+       {
+        "name": "FrontEnd Developer Certificate",
+        "issuer": "Soutech Ventures",
+        "date": "2024",
+        "logo": "https://www.soutechventures.com/wp-content/uploads/2023/04/soutechlogo.png"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science – Computer Science",
+        "institution": "Godfrey Okoye University, Enugu, Nigeria",
+        "year": "2020-2024",
+        "logo": "https://s.yimg.com/zb/imgv1/7f3b39e5-0c80-3f89-98dc-6109a6f365e1/t_500x300"
+      },
+      {
+        "degree": "Research Ethics Training Programme",
+        "institution": "Godfrey Okoye University, Enugu, Nigeria",
+        "year": "2023-2024",
+        "logo": "https://s.yimg.com/zb/imgv1/7f3b39e5-0c80-3f89-98dc-6109a6f365e1/t_500x300"
+      },
+       {
+        "degree": "Student Training for Entrepreneurial Promotion (STEP)",
+        "institution": "Godfrey Okoye University, Enugu, Nigeria",
+        "year": "2022-2023",
+        "logo": "https://s.yimg.com/zb/imgv1/7f3b39e5-0c80-3f89-98dc-6109a6f365e1/t_500x300"
+      },
+      {
+        "degree": "West African Senior School Certificate (WAEC)",
+        "institution": "Alvana Model Secondary School Owerri Imo State",
+        "year": "2014-2020",
+        "logo": "https://alvanamodel.sch.ng/wp-content/uploads/2019/02/cropped-logo.png"
+      }
+    ],
+    "skills": [
+      "Full Stack Development",
+      "API Design",
+      "Database Management",
+      "Deployment Workflows",
+      "UI Design",
+      "Accessibility",
+      "Testing",
+       "Microsoft office packages",
+      "Problem solving ",
+      "Ai tools "
+    ]
+  },
+  "technicalSkills": {
+    "design": ["Figma", "Adobe XD", "Sketch", "Photoshop"],
+    "development": [
+      "HTML/CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Next.js",
+      "MongoDB",
+      "MySQL",
+      "Tailwind",
+      "Firebase",
+      "TypeScript",
+      "Git",
+      "GitHub",
+      "Responsive Design",
+      "Bootstrap"
+    ],
+    "uxMethods": [
+      "User Research",
+      "Usability Testing",
+      "Wireframing",
+      "Prototyping",
+      "Information Architecture",
+      "User Flows"
+    ],
+    "softSkills": [
+      "Team Leadership",
+      "Project Management",
+      "Client Communication",
+      "Mentoring",
+      "Presentations"
+    ]
+  }
+}
