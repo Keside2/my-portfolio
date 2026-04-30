@@ -60,10 +60,10 @@ const projects: Project[] = [
       "Firebase",
       "CSS3",
     ],
-    coverImage: "https://v-portfolio-d58y.onrender.com/assets/img/portfolio/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%2015_01_2026%2019_17_24.png",
-    thumbnailImage: "https://v-portfolio-d58y.onrender.com/assets/img/portfolio/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%2015_01_2026%2019_17_24.png",
+    coverImage: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png",
+    thumbnailImage: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png",
     gallery: [
-      { url: "https://v-portfolio-d58y.onrender.com/assets/img/portfolio/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%2015_01_2026%2019_17_24.png", caption: "MovieApp landing page" },
+      { url: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png", caption: "MovieApp landing page" },
       { url: "https://github.com/Keside2/movie-app-tmdb/blob/main/src/assets/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2015_01_2026%2019_17_41.png?raw=true", caption: "MovieApp" },
       { url: "https://github.com/Keside2/movie-app-tmdb/blob/main/src/assets/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2015_01_2026%2019_17_59.png?raw=true", caption: "MovieApp" },
       { url: "/movie-app-tmdb and 3 more pages - Personal - Microsoft​ Edge 29_04_2026 16_35_59.png", caption: "MovieApp" },
@@ -135,7 +135,7 @@ const projects: Project[] = [
         slug: "movieApp",
         title: "MovieApp",
         category: "Movie Streaming Platform",
-        image: "https://v-portfolio-d58y.onrender.com/assets/img/portfolio/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%2015_01_2026%2019_17_24.png",
+        image: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png",
       },
       {
         slug: "wealthify",
@@ -190,7 +190,7 @@ const projects: Project[] = [
         slug: "movieApp",
         title: "MovieApp",
         category: "Movie Streaming Platform",
-        image: "https://v-portfolio-d58y.onrender.com/assets/img/portfolio/movie-app-tmdb%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft_%20Edge%2015_01_2026%2019_17_24.png",
+        image: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png",
       },
       {
         slug: "housify",
