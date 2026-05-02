@@ -101,6 +101,13 @@ const projects: Project[] = [
         category: "Game",
         image: "/game-layout.png",
       },
+
+      {
+        slug: "booking-platform",
+        title: "Booking Platform",
+        category: "Booking Platform",
+        image: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+      },
     ],
   },
   {
@@ -171,6 +178,13 @@ const projects: Project[] = [
         category: "Game",
         image: "/game-layout.png",
       },
+
+      {
+        slug: "booking-platform",
+        title: "Booking Platform",
+        category: "Booking Platform",
+        image: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+      },
     ],
   },
   {
@@ -239,6 +253,13 @@ const projects: Project[] = [
         category: "Game",
         image: "/game-layout.png",
       },
+
+      {
+        slug: "booking-platform",
+        title: "Booking Platform",
+        category: "Booking Platform",
+        image: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+      },
     ],
   },
   {
@@ -274,7 +295,10 @@ const projects: Project[] = [
     ],
     coverImage: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png",
     thumbnailImage: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png",
-    gallery: [{ url: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png", caption: "Quest-log" }],
+    gallery: [
+      { url: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png", caption: "Quest-log" },
+      { url: "/quest-log and 2 more pages - Personal - Microsoft​ Edge 02_05_2026 23_17_27.png", caption: "Quest-log" }
+    ],
     client: "",
     timeline: "2026",
     role: "Full Stack Developer",
@@ -306,6 +330,13 @@ const projects: Project[] = [
         title: "Multiplayer Trivia",
         category: "Game",
         image: "/game-layout.png",
+      },
+
+      {
+        slug: "booking-platform",
+        title: "Booking Platform",
+        category: "Booking Platform",
+        image: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
       },
     ],
   },
@@ -379,6 +410,99 @@ const projects: Project[] = [
         title: "QuestLog",
         category: "Game",
         image: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png",
+      },
+
+      {
+        slug: "booking-platform",
+        title: "Booking Platform",
+        category: "Booking Platform",
+        image: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    slug: "booking-platform",
+    title: "Booking Platform",
+    category: "Booking-Platform",
+    shortDescription:
+      "A booking platform enabling users to discover, book, and pay for local services seamlessly.",
+    description: [
+      "A full-stack service booking platform that allows users to book local services (like hostel, hotel etc.), make secure payments, and receive booking confirmations by email. Admins can manage bookings, update statuses, and oversee service availability.",
+     
+    ],
+    features: [
+      "End-to-End Booking Engine",
+      "Secure Transaction System",
+      "Automated Notification Engine",
+      "Admin Control Center",
+      "Live Booking Tracker",
+      "Availability Management System",
+      "Real-Time Chat System",
+      "Reward & Feedback System",
+    ],
+    technologies: [
+      "React",
+      "React Router",
+      "Axios",
+      "React Toastify",
+      "Stripe API",
+      "Node.js",
+      "CSS3",
+      "Express.js",
+      "MongoDB",
+      "Nodemailer",
+      "JWT Authentication",
+      "CORS & Helmet",
+    ],
+    coverImage: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+    thumbnailImage: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png",
+    gallery: [
+      { url: "/Vite + React - Google Chrome 02_05_2026 22_54_24.png", caption: "booking-platform" },
+     { url: "/Vite + React - Google Chrome 02_05_2026 22_54_41.png", caption: "booking-platform" },
+       { url: "/Vite + React - Google Chrome 02_05_2026 23_05_35.png", caption: "booking-platform" },
+       { url: "/MovieBox - Watch Movies Free Online, Watch TV Series Online - Google Chrome 01_05_2026 22_45_59.png", caption: "booking-platform" },
+
+    ],
+    client: "",
+    timeline: "2025",
+    role: "Full Stack Developer",
+    liveUrl: "https://local-service-booker-frontend.onrender.com/login",
+    githubUrl: "https://github.com/Keside2/local-service-booker",
+    relatedProjects: [
+       {
+        slug: "movieApp",
+        title: "MovieApp",
+        category: "Movie Streaming Platform",
+        image: "/movie-app-tmdb and 5 more pages - Personal - Microsoft_ Edge 15_01_2026 19_17_24.png",
+      },
+      {
+        slug: "housify",
+        title: "Housify",
+        category: "Real Estate",
+        image: "/Housify - Google Chrome 18_03_2026 23_07_26.png",
+      },
+
+      {
+        slug: "wealthify",
+        title: "Wealthify",
+        category: "High-performance fintech application",
+        image: "/Wealthify _ Track Your Growth and 1 more page - Personal - Microsoft_ Edge 01_02_2026 20_19_02.png",
+      },
+
+      {
+        slug: "questLog",
+        title: "QuestLog",
+        category: "Game",
+        image: "/quest-log - Personal - Microsoft​ Edge 16_04_2026 22_29_37.png",
+      },
+
+      {
+        slug: "multiplayer-trivia",
+        title: "Multiplayer Trivia",
+        category: "Game",
+        image: "/game-layout.png",
       },
     ],
   },
