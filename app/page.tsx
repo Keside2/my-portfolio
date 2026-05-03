@@ -1,31 +1,40 @@
-"use client"
+"use client";
 
-import type React from "react"
-import Link from "next/link"
-import { GlobeIcon, CodeIcon, BriefcaseIcon } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { ProjectCard } from "@/components/project-card"
-import { ExperienceCard } from "@/components/experience-card"
-import { EnhancedScrollIndicator } from "@/components/enhanced-scroll-indicator"
-import { AnimatedSection } from "@/components/animated-section"
-import { EnhancedProfile } from "@/components/enhanced-profile"
-import { CredentialsSection } from "@/components/credentials-section"
+import type React from "react";
+import Link from "next/link";
+import { GlobeIcon, CodeIcon, BriefcaseIcon } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { ProjectCard } from "@/components/project-card";
+import { ExperienceCard } from "@/components/experience-card";
+import { EnhancedScrollIndicator } from "@/components/enhanced-scroll-indicator";
+import { AnimatedSection } from "@/components/animated-section";
+import { EnhancedProfile } from "@/components/enhanced-profile";
+import { CredentialsSection } from "@/components/credentials-section";
 import { PortfolioHeader } from "@/components/portfolio-header";
-import { getExperienceInfo, getTechnicalSkillsInfo, getAllProjects, getPersonalInfo } from "@/lib/data"
-import { ServicesSection } from "@/components/services-section"
-import { BusinessImpactMetrics } from "@/components/business-impact-metrics"
-import { FloatingWhatsApp } from "@/components/floating-whatsapp"
+import {
+  getExperienceInfo,
+  getTechnicalSkillsInfo,
+  getAllProjects,
+  getPersonalInfo,
+} from "@/lib/data";
+import { ServicesSection } from "@/components/services-section";
+import { BusinessImpactMetrics } from "@/components/business-impact-metrics";
+import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 
 const SkillTagComponent = ({ children }: { children: React.ReactNode }) => {
-  return <div className="px-2 py-1 bg-zinc-800 rounded-full text-xs font-medium text-zinc-400">{children}</div>
-}
+  return (
+    <div className="px-2 py-1 bg-zinc-800 rounded-full text-xs font-medium text-zinc-400">
+      {children}
+    </div>
+  );
+};
 
 export default function Home() {
-  const projects = getAllProjects()
-  const experienceInfo = getExperienceInfo()
-  const technicalSkills = getTechnicalSkillsInfo()
-  const personalInfo = getPersonalInfo()
+  const projects = getAllProjects();
+  const experienceInfo = getExperienceInfo();
+  const technicalSkills = getTechnicalSkillsInfo();
+  const personalInfo = getPersonalInfo();
 
   const handleBookConsultation = () => {
     const whatsappLink = personalInfo.social.find(
@@ -41,7 +50,7 @@ export default function Home() {
       );
       window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
     }
-  }
+  };
 
   const handleSendMessage = () => {
     const whatsappLink = personalInfo.social.find(
@@ -52,7 +61,7 @@ export default function Home() {
     } else {
       window.location.href = `mailto:${personalInfo.email}?subject=Message from Portfolio`;
     }
-  }
+  };
 
   return (
     <main className="min-h-screen bg-black text-white selection:bg-cyan-500/30">
@@ -221,9 +230,11 @@ export default function Home() {
           delay={500}
           className="mt-16 py-8 text-center border-t border-zinc-800"
         >
-          <p className="text-sm text-zinc-500 italic pb-2">"Building Excellence in every pixel."</p>
+          <p className="text-sm text-zinc-500 italic pb-2">
+            "Building Excellence in every pixel."
+          </p>
           <p className="text-xs text-zinc-600 mt-2">
-            © {new Date().getFullYear()} Emmy | All Rights Reserved.
+            © {new Date().getFullYear()} Godwin | All Rights Reserved.
           </p>
         </AnimatedSection>
       </div>
@@ -233,4 +244,3 @@ export default function Home() {
     </main>
   );
 }
-

@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Users, CheckCircle, TrendingUp, Calendar } from "lucide-react"
-import { AnimatedSection } from "./animated-section"
+import { Card, CardContent } from "@/components/ui/card";
+import { Users, CheckCircle, TrendingUp, Calendar } from "lucide-react";
+import { AnimatedSection } from "./animated-section";
 import { cn } from "@/lib/utils";
 
 const metrics = [
   {
     label: "Projects Delivered",
-    value: "25+",
-    subLabel: "Across 3+ continents",
+    value: "10+",
+    subLabel: "Across 1 continents",
     icon: CheckCircle,
     color: "text-green-400",
   },
   {
     label: "Total Clients",
-    value: "15+",
+    value: "5+",
     subLabel: "Globally recognized",
     icon: Users,
     color: "text-blue-400",
@@ -29,12 +29,12 @@ const metrics = [
   },
   {
     label: "Years Experience",
-    value: "5+",
+    value: "3+",
     subLabel: "Building digital products",
     icon: Calendar,
     color: "text-purple-400",
-  }
-]
+  },
+];
 
 export function BusinessImpactMetrics() {
   return (

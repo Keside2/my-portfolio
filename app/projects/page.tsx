@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
-import { ProjectCard } from "@/components/project-card"
-import { AnimatedSection } from "@/components/animated-section"
-import { PortfolioHeader } from "@/components/portfolio-header"
-import { EnhancedScrollIndicator } from "@/components/enhanced-scroll-indicator"
-import { getAllProjects } from "@/lib/data"
-import { Card, CardContent } from "@/components/ui/card"
-import { GlobeIcon } from "lucide-react"
+import { ProjectCard } from "@/components/project-card";
+import { AnimatedSection } from "@/components/animated-section";
+import { PortfolioHeader } from "@/components/portfolio-header";
+import { EnhancedScrollIndicator } from "@/components/enhanced-scroll-indicator";
+import { getAllProjects } from "@/lib/data";
+import { Card, CardContent } from "@/components/ui/card";
+import { GlobeIcon } from "lucide-react";
 
 export default function ProjectsPage() {
-  const projects = getAllProjects()
+  const projects = getAllProjects();
 
   return (
     <main className="min-h-screen bg-black text-white selection:bg-cyan-500/30">
@@ -24,7 +24,9 @@ export default function ProjectsPage() {
             Selected Works
           </h1>
           <p className="text-zinc-400 max-w-2xl mx-auto text-lg">
-            A showcase of my recent projects, case studies, and technical experiments. Exploring the boundaries of web and mobile possibilities.
+            A showcase of my recent projects, case studies, and technical
+            experiments. Exploring the boundaries of web and mobile
+            possibilities.
           </p>
         </AnimatedSection>
 
@@ -54,5 +56,5 @@ export default function ProjectsPage() {
 
       <EnhancedScrollIndicator />
     </main>
-  )
+  );
 }
